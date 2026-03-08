@@ -1,0 +1,56 @@
+/* Hero Section Gradient */
+.hero-gradient {
+    background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+/* People Trust Us Badge */
+.trust-badge-bg {
+    background-color: #ffedea;
+}
+
+/* Search Bar Sizing */
+.search-wrapper {
+    max-width: 33rem;
+}
+
+.search-btn-custom {
+    background-color: #ffca40;
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+/* Watch Video Button */
+.watch-video-wrapper {
+    cursor: pointer;
+}
+
+.play-circle {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+/* Custom Red Circle with Yellow Heart */
+.heart-icon-circle {
+    width: 24px;
+    height: 24px;
+    background-color: #F54748; /* FoodHut Primary Red */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.heart-icon-circle i {
+    color: #ffca40; /* FoodHut Yellow */
+    font-size: 12px;
+}
+
+/* --- Mobile Responsive Rules --- */
+@media (max-width: 768px) {
+    .hero-heading {
+        /* You can change this number to make it as big as you want! */
+        font-size: 3rem !important; 
+        margin-left: 1rem;
+    }
+}
